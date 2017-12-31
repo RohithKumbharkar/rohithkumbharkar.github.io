@@ -1,0 +1,242 @@
+---
+---
+
+$light: whitesmoke
+$dark: #242424
+
+$primary: #e01d0c
+$primarydark: darken($primary, 0.25)
+$secondary: #0080ff
+
+$anime-time: 0.25s
+$transition: $anime-time ease-in-out
+
+=small
+    @media (min-width: 600px)
+        @content
+
+=medium
+    @media (min-width: 900px)
+        @content
+
+=large
+    @media (min-width: 1200px)
+        @content
+
+=xlarge
+    @media (min-width: 1800px)
+        @content
+
+html
+    font-size: 4.5vmin
+
+    +small
+        font-size: 3.25vmin
+
+body
+    margin: 0
+
+.container
+    margin: 0 auto
+
+    +small
+        max-width: 95%
+
+    +medium
+        max-width: 85%
+
+    +large
+        max-width: 75%
+
+    +xlarge
+        max-width: 65%
+
+#wrapper
+    background-color: $light
+    color: $dark
+    overflow: hidden
+
+header, footer
+    position: relative
+    display: flex
+
+    a
+        color: rgba($light, 0.75)
+        text-decoration: none
+        transition: color $transition
+
+        &:hover, &:focus, &:active
+            color: $light
+
+header:after, footer:before
+    content: ""
+    position: absolute
+    left: 0
+    width: 110%
+    height: 5em
+    background-color: $light
+        
+
+header
+    flex-direction: column
+    min-height: 20em
+    padding: 1em 1em 4em 1em
+    background-color: black
+    color: white
+    background-image: url("bg.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: 35% center
+
+    +small
+        background-position: 0 center
+
+    +medium
+        background-position: center
+
+    &:after
+        bottom: -0.75em
+        transform: translate(-5%, 50%) rotate(-2.5deg)
+
+    @keyframes scrolldown
+        0%, 100%
+            bottom: 0.75em
+        25%
+            bottom: 1.5em
+
+    svg
+        position: absolute
+        bottom: 0.75em
+        left: 50%
+        transform: translateX(-50%)
+        font-size: 2em
+        animation: scrolldown 2s infinite ease-in-out
+        fill: $light
+        z-index: 1
+
+footer
+    padding: 5em 1em 2em 1em
+    text-align: center
+    background-color: black
+    color: $light
+    min-height: 5em
+    justify-content: center
+    align-items: center
+
+    &:before
+        top: 0.75em
+        transform: translate(-5%, -50%) rotate(-2.5deg)
+
+nav
+    .container
+        display: flex
+        align-items: center
+        justify-content: space-between
+
+#title
+    font-size: 2.5em
+
+#hero
+    flex: 1
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    text-align: center
+
+.social
+    margin: 0
+    padding: 0
+    list-style-type: none
+    display: flex
+    justify-content: space-around
+
+    a
+        padding: 0 0.5em
+
+a.cta
+    background-color: $light
+    color: $dark
+    padding: 0.5em 1em
+    margin: 0 0.25em
+    display: inline-block
+    font-weight: bold
+
+    &:hover, &:focus, &:active
+        color: black
+
+main
+    padding: 1em 0.75em
+    line-height: 1.6
+    
+    a
+        color: $secondary
+
+section
+    background-color: white
+    display: flex
+    flex-direction: column
+    box-shadow: 0 0.05em 0.1em rgba($dark, 0.25)
+    margin: 3em auto
+
+    .header
+        background-color: darken($primarydark, 5)
+        padding: 0 0.5em
+        width: 100%
+        color: white
+        text-align: center
+        box-sizing: border-box
+        position: relative
+        border-bottom: 0.25em solid rgba($dark, 0.25)
+
+        h2
+            margin-top: 1.5em
+            transform: rotate(-1deg)
+
+        &:before
+            background-color: $primary
+            transform-origin: top right
+            transform: rotate(-1deg)
+            right: -1%
+            content: ""
+            position: absolute
+            top: 0
+            height: 100%
+            width: 102%
+            box-shadow: 0 0 0.5em rgba($dark, 0.25)
+
+    .content
+        margin: 0.5em
+        padding: 0.5em
+
+        +small
+            padding: 1em
+
+        +medium
+            padding: 2em
+
+#skills
+    span
+        font-size: 0.85em
+        padding: 0.25em 0.75em
+        display: inline-block
+        margin: 0.25em
+        border-bottom-right-radius: 0.85em
+        border-top-left-radius: 0.85em
+        color: white
+
+    #master
+        span
+            background-color: limegreen
+    
+    #advanced
+        span
+            background-color: royalblue
+
+    #interm
+        span
+            background-color: purple
+
+    #beginner
+        span
+            background-color: dimgray

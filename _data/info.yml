@@ -1,0 +1,52 @@
+name: "Rohith"
+middlename: "Rohith Reddy"
+surname: "Rohith Kumbharkar"
+fullname: "Rohith Reddy Kumbharkar"
+portfolio: "https://rohith.github.io"
+firstjobin: "2011"
+resume:
+  name: "Resume"
+  url: "https://goo.gl/wpLGgr"
+social:
+  contact:
+    name: "Contact"
+    url: "https://goo.gl/forms/U7bOPkxR7F6iZDbP2"
+  blog:
+    name: "Blog"
+    url: "https://icoderaw.com"
+  networks:
+    - name: "Github"
+      url: "https://github.com/rohith"
+    - name: "Twitter"
+      url: "https://twitter.com/beingbefikra"
+    - name: "Instagram"
+      url: "https://www.instagram.com/rohithkumbharkar/"
+    - name: "Facebook"
+      url: "https://www.facebook.com/rohithkumbharkar"
+sections:
+  hero:
+    title: "Hello, I'm Rohith"
+    subtitle: "I help turn ideas to digital experiences"
+  skills:
+    - level: "Awesome"
+      cssid: "master"
+      list: ["ASP.NET MVC", "C#.NET", "CSS / SASS / SCSS", "HTML / XML", "JavaScript", "Responsive Design", "VCS / Git / TFS", "Web API / RESTful Services", "Web Applications / Services", "Windows Applications / Services"]
+    - level: "Great"
+      cssid: "advanced"
+      list: ["Aurelia", "CI / CD / Octopus / TeamCity", "Design Patterns", "NPM / NuGet", "OOPS", "PowerShell", "Progressive Web Apps", "SQL", "SignalR", "TypeScript"]
+    - level: "Feasible"
+      cssid: "interm"
+      list: ["IIS / Load Balancing", "JS Frameworks / Packages / Libraries", "Knockout", "Universal Windows Platform"]
+    - level: "Watching"
+      cssid: "beginner"
+      list: ["Cloud", "F#", "IOT"]
+  opensource:
+    - name: "Raven Identity"
+      url: "http://rohith.github.io/raven-identity/"
+      description: "I built this project to provide a No-SQL database as an alternate storage for ASP.NET Identity. The library abstracts underlying CRUD operations with Identity stores, supports Entity Framework & LINQ. Distributed as Nuget Package & help related to integration is available on the website"
+    - name: "Chatter Club"
+      url: "http://creativecolon.com/chatterclub"
+      description: "A prototype built for real-time chat. It's a fun project built to learn the ways of SignalR. It's been on the internet for quite sometime, go ahead give it a try"
+    - name: "quoteR"
+      url: "https://rohith.github.io/quoter/"
+      description: "My very first Progressive Web App, I built this to learn PWA & Service Worker. It's live & can be installed on mobiles as well as desktops. As PWA, it runs in a standalone mode & feels like a native app while occupying tiny space on the device"
