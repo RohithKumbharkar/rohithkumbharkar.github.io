@@ -6,7 +6,7 @@ portfolio: "https://rohith.github.io"
 firstjobin: "2011"
 resume:
   name: "Resume"
-  url: "https://goo.gl/wpLGgr"
+  url: "https://goo.gl/hMD8yV"
 social:
   contact:
     name: "Contact"
@@ -33,13 +33,13 @@ sections:
       list: ["ASP.NET MVC", "C#.NET", "CSS / SASS / SCSS", "HTML / XML", "JavaScript", "Responsive Design", "VCS / Git / TFS", "Web API / RESTful Services", "Web Applications / Services", "Windows Applications / Services"]
     - level: "Great"
       cssid: "advanced"
-      list: ["Aurelia", "CI / CD / Octopus / TeamCity", "Design Patterns", "NPM / NuGet", "OOPS", "PowerShell", "Progressive Web Apps", "SQL", "SignalR", "TypeScript"]
+      list: ["CI / CD / Octopus / TeamCity", "Design Patterns", "NPM / NuGet", "OOPS", "Progressive Web Apps", "SQL", "SignalR", "TypeScript", "Vue.js", "Knockout", "Aurelia", "PowerShell"]
     - level: "Feasible"
       cssid: "interm"
-      list: ["IIS / Load Balancing", "JS Frameworks / Packages / Libraries", "Knockout", "Universal Windows Platform"]
-    - level: "Watching"
+      list: ["IIS / Load Balancing", "JS Frameworks / Packages / Libraries", "Universal Windows Platform", "SPA"]
+    - level: "Next"
       cssid: "beginner"
-      list: ["Cloud", "F#", "IOT"]
+      list: [".NET Core", "Docker Containers", "Microservices", "Cloud", "F#", "IOT"]
   opensource:
     - name: "Raven Identity"
       url: "http://rohith.github.io/raven-identity/"
