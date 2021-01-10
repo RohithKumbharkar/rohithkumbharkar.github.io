@@ -1,2 +1,2 @@
 # rohith.github.io
-Just my portfolio where I get to brag ;)
+Just another portfolio where a geek like me gets to brag about their geekiness 🤓

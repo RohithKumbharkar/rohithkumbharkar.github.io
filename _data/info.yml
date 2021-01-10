@@ -6,23 +6,23 @@ portfolio: "https://rohith.github.io"
 firstjobin: "2011"
 resume:
   name: "Resume"
-  url: "https://goo.gl/hMD8yV"
+  url: "https://drive.google.com/file/d/1PT4vt9YHsdaVMQF9mAps185us0Y8_Dzg/view?usp=sharing"
 social:
   contact:
     name: "Contact"
     url: "https://goo.gl/forms/U7bOPkxR7F6iZDbP2"
   blog:
     name: "Blog"
-    url: "https://icoderaw.com"
+    url: "https://decodepixels.com"
   networks:
     - name: "Github"
-      url: "https://github.com/rohith"
+      url: "https://github.com/brandedoutcast"
     - name: "Twitter"
-      url: "https://twitter.com/beingbefikra"
+      url: "https://twitter.com/brandedoutcast"
     - name: "Instagram"
-      url: "https://www.instagram.com/rohithkumbharkar/"
+      url: "https://www.instagram.com/brandedoutcast"
     - name: "Facebook"
-      url: "https://www.facebook.com/rohithkumbharkar"
+      url: "https://www.facebook.com/brandedoutcast"
 sections:
   hero:
     title: "Hello, I'm Rohith"
@@ -30,16 +30,16 @@ sections:
   skills:
     - level: "Awesome"
       cssid: "master"
-      list: ["ASP.NET MVC", "C#.NET", "CSS / SASS / SCSS", "HTML / XML", "JavaScript", "Responsive Design", "VCS / Git / TFS", "Web API / RESTful Services", "Web Applications / Services", "Windows Applications / Services"]
+      list: [".NET Core", "ASP.NET MVC", "C#.NET", "CSS / SASS / SCSS", "HTML / XML", "JavaScript", "Responsive Design", "VCS / Git / TFS", "Web API / RESTful Services", "Web Applications / Services", "Windows Applications / Services"]
     - level: "Great"
       cssid: "advanced"
-      list: ["CI / CD / Octopus / TeamCity", "Design Patterns", "NPM / NuGet", "OOPS", "Progressive Web Apps", "SQL", "SignalR", "TypeScript", "Vue.js", "Knockout", "Aurelia", "PowerShell"]
+      list: ["Docker Containers", "Microservices", "Cloud", "CI / CD / Octopus / TeamCity", "Design Patterns", "NPM / NuGet", "OOPS", "Progressive Web Apps", "SQL", "SignalR", "TypeScript", "Vue.js", "Knockout", "Aurelia", "PowerShell"]
     - level: "Feasible"
       cssid: "interm"
       list: ["IIS / Load Balancing", "JS Frameworks / Packages / Libraries", "Universal Windows Platform", "SPA"]
     - level: "Next"
       cssid: "beginner"
-      list: [".NET Core", "Docker Containers", "Microservices", "Cloud", "F#", "IOT"]
+      list: ["F#", "IOT", "AI", "ML", "Game Development"]
   opensource:
     - name: "Raven Identity"
       url: "http://rohith.github.io/raven-identity/"
